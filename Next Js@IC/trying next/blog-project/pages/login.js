@@ -93,9 +93,9 @@ export default function LoginPage() {
           {loading ? "Logging in..." : "Login"}
         </button>
       </form>
-
-      <p style={{ marginTop: "20px", textAlign: "center" }}>
-        Don't have an account? <Link href="/register">Register here</Link>
+      <p>
+        {"Don't have an account? "}
+        <Link href="/register">Register here</Link>
       </p>
     </div>
   );
